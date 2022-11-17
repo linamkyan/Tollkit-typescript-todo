@@ -1,0 +1,27 @@
+
+input{
+    padding: 10px 30px;
+}
+button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.add_btn{
+    background-color: green;
+}
+.only_checks_btn{
+    background-color: rebeccapurple;
+}
+.delete_all{
+    background-color: darkred;
+}
+
+.show_all{
+    background-color: green;
+}

@@ -1,0 +1,49 @@
+
+input{
+    padding: 10px 30px;
+}
+
+.all_btns{
+    display: flex;
+}
+button{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.add_btn{
+    background-color: green;
+}
+.only_checks_btn{
+    background-color: rebeccapurple;
+}
+.only_unchecks_btn{
+    background-color: lightseagreen;
+}
+.delete_all{
+    background-color: darkred;
+}
+
+.show_all{
+    background-color: green;
+}
+
+.check_all{
+    background-color: cornflowerblue;
+}
+
+.uncheck_all{
+    background-color: lightsalmon;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

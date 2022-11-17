@@ -1,0 +1,21 @@
+
+
+.table{
+    width: 80%;
+    margin: 20px 0;
+}
+
+.rowTr td{
+    border: 1px solid gray;
+}
+
+.delete{
+    cursor: pointer;
+    font-size: 36px;
+    color: darkred;
+    transition: .3s;
+}
+
+.delete:hover {
+    color: red;
+}
